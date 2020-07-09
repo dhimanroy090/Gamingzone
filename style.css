@@ -1,0 +1,224 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*-----Navigation------*/
+#nav-bar
+{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar-brand img
+{
+	height: 30px;
+	padding-left: 30px;
+}
+
+.navbar-brand
+{
+	height: 40px;
+	padding-left: 30px;
+}
+
+.navbar-nav li
+{
+	padding: 0 10px;
+
+}
+.navbar-nav li a
+{
+	float: right;
+	text-align: left;
+}
+#nav-bar ul li a:hover
+{
+	color: #007bff!important;
+}
+.navbar
+{
+	background: #fff; 
+}
+.navbar-toggler
+{
+	border: none !important;
+}
+.nav-link
+{
+	color: #555!important;
+	font-weight: 600;
+	font-size: 16px;
+}
+/*-----SLider-----*/
+#Slider
+{
+width: 100%;
+}
+
+/*-----------ARTICLE-------------*/
+#ARTICLE
+{
+	background: linear-gradient(57deg, #00c6a7, #1e4d92);
+	clip-path: polygon(0% 0%,100% 0%,100% 85%,0% 100%);
+	padding-top: 50px;
+	padding-bottom: 50px; 
+	color: #ffffff;
+}
+#ARTICLE .btn
+{ 
+	margin-top: 20px;
+	margin-bottom: 30px;
+	
+}
+.article content
+{
+	padding-top: 20px;
+
+	display: flex;
+}
+
+
+
+/*---------ABOUT-----------*/
+#ABOUT
+{
+	padding-top: 50px;
+	padding-bottom: 50px; 
+	color: #555;
+}
+#ABOUT .btn
+{ 
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.about content
+{
+	padding-top: 20px;
+}
+.skills-bar p
+{
+margin-bottom: 6px;
+font-weight: 600;
+}
+.progress-bar
+{
+	border-radius: 16px;
+}
+.progress
+{
+	border-radius: 16px !important;
+	margin-bottom: 20px;
+}
+/*-----------Services-------------*/
+#services
+{
+	background-image: linear-
+	gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(images/quote.jpg);
+background-size: cover;
+background-position: center;
+color: #b91b1b !important
+background-attachment: fixed;
+padding-top: 50px;
+padding-bottom: 50px;
+
+}
+#services h1
+{
+	text-align: center;
+	color: #b81d1d !important
+	padding-bottom: 10px;
+}
+#services h1::after
+{
+	content: '';
+	background: #c22222;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto 5px;
+}
+
+/*-----------Services-------------*/
+#DOWNLOAD
+{
+background-size: cover;
+background-position: center;
+color: #555;
+background-attachment: fixed;
+padding-top: 50px;
+padding-bottom: 50px;
+
+}
+#download h1
+{
+	text-align: center;
+	color: #b81d1d !important
+	padding-bottom: 10px;
+}
+#download h1::after
+{
+	content: '';
+	background: #c22222;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto 5px;
+}
+
+/*-----------Downloads-------------*/
+
+#DOWNLOADS
+{
+	background:linear-gradient(120deg,#ff6666,#ff33cc);
+	clip-path: polygon(0% 7%,100% 0%,100% 100%,0% 100%);
+	padding-top: 120px;
+	padding-bottom: 50px; 
+	color: #ffffff;
+}
+#DOWNLOADS .btn
+{ 
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.downloads content
+{
+	padding-top: 20px;
+	
+	text-align: center;
+	display: flex;
+}
+
+
+/*-----------CONTACTS-------------*/
+#CONTACTS
+{
+	padding-top: 50px;
+	padding-bottom: 50px; 
+	color: #505350;
+}
+#CONTACTS .btn
+{ 
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.contacts content
+{
+	padding-top: 20px;
+}
+
+/*-----------OUR TEAM-------------*/
+#OURTEAM
+{
+	padding-top: 50px;
+	padding-bottom: 50px; 
+	color: #555;
+}
+#OURTEAM .btn
+{ 
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.ourteam content
+{
+	padding-top: 20px;
+}
